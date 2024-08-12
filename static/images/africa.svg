@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="585px" viewBox="0 0 1440 585" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Impact</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Impact" fill-rule="nonzero">
+            <rect id="Rectangle-20" fill="#d1a45a" x="0" y="0" width="1440" height="585"></rect>
+            <g id="Group-7" opacity="0.445033482" transform="translate(492.000000, 28.000000)" fill="#d1a45a">
+                <polygon id="Fill-1"
+                    points="180.064402 0 76.3572508 6.55774778 0 107.111398 0 187.991805 56.9830116 242.640461 139.038792 224.060555 149.294624 244.827136 170.947515 238.267871 173.227687 280.894369 202.858519 356.309607 191.46146 410.959023 202.858519 449.213689 233.559914 529 284.877068 521.136469 328.219321 464.514342 346.453854 451.399605 346.453854 416.423433 390.900102 379.262862 378.363338 301.661709 444.463996 232.804219 457 186.899226 401.984121 197.186916 333.91785 45.9049932 243.884889 29.5102444 238.18712 53.5560783 184.623225 28.4176658">
+                </polygon>
+                <polygon id="Fill-2"
+                    points="405.779578 401.973382 400 453.377517 419.704194 461 451 386.955186 442.886645 363">
+                </polygon>
+            </g>
+        </g>
+    </g>
+</svg>

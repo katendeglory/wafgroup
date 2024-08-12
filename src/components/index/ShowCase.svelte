@@ -48,8 +48,8 @@
             <div
               class="k-font tracking-wider font-extralight uppercase text-white glassmorph-thin px-2 py-2 sm:px-4 sm:py-4 rounded-md border border-white/10 text-xl lg:text-2xl md:mr-8"
             >
-              WAF Group est à votre disposition pour emmener à la vie vos
-              rêves de décoration et rendre vos événements inoubliables.
+              WAF Group est à votre disposition pour emmener à la vie vos rêves
+              de Groupation et rendre vos événements inoubliables.
             </div>
             <div class="w-full md:w-[7.5rem] flex flex-col justify-between">
               <span

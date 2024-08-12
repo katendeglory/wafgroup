@@ -3,7 +3,7 @@
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/nourane-01.webm";
+    vid.src = "/videos/waf-group-01.webm";
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;

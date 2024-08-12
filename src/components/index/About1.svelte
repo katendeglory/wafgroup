@@ -8,7 +8,7 @@
   <div class="min-h-screen py-16">
     <Container>
       <div class="h-font text-4xl md:text-6xl font-bold">
-        <div class="mb-2 text-brand-yellow text-3xl md:text-5xl">
+        <div class="mb-2 text-brand-green text-3xl md:text-5xl">
           A propos...
         </div>
         WAF Group
@@ -16,7 +16,7 @@
 
       <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="">
-          WAF Group est une entreprise qui œuvre dans la décoration des
+          WAF Group est une entreprise qui œuvre dans la Groupation des
           évènements ainsi que la déco d'interieur.
           <div class="my-4" />
 

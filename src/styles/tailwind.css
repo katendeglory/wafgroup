@@ -11,7 +11,7 @@
 }
 
 .btn-primary {
-  @apply bg-brand-yellow text-white shadow-green-400/20;
+  @apply bg-brand-green text-white shadow-green-400/20;
 }
 
 .btn-black {
@@ -19,11 +19,11 @@
 }
 
 .btn-nav {
-  @apply bg-brand-yellow text-white shadow-none w-10 h-10 rounded-full px-0;
+  @apply bg-brand-green text-white shadow-none w-10 h-10 rounded-full px-0;
 }
 
 .btn-dimmed {
-  @apply bg-gray-100 text-brand-yellow shadow-none;
+  @apply bg-gray-100 text-brand-green shadow-none;
 }
 
 .btn-dimmed-secondary {
@@ -31,7 +31,7 @@
 }
 
 .btn-secondary {
-  @apply bg-brand-yellow text-brand-white py-2;
+  @apply bg-brand-green text-brand-white py-2;
 }
 
 .hook {
@@ -43,7 +43,7 @@
 ***********************************************************************************************/
 
 select, input[type="text"], input[type="file"], input[type="date"], input[type="email"], input[type="password"], input[type="number"], textarea, .selectContainer, .selectContainer input, .selectContainer .listContainer {
-  @apply rounded-md border-none ring-1 ring-brand-yellow/20 cursor-pointer text-gray-800 shadow-sm !important;
+  @apply rounded-md border-none ring-1 ring-brand-green/20 cursor-pointer text-gray-800 shadow-sm !important;
 }
 
 select, input[type="file"], input[type="text"], input[type="date"], input[type="datetime-local"], input[type="time"], input[type="email"], input[type="password"], input[type="number"], textarea {
@@ -51,7 +51,7 @@ select, input[type="file"], input[type="text"], input[type="date"], input[type="
 }
 
 select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, input[type="file"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, textarea:focus, .selectContainer input:focus {
-  @apply outline-none ring-1 ring-brand-yellow !important;
+  @apply outline-none ring-1 ring-brand-green !important;
 }
 
 /* input[type="file"]::placeholder, input[type="datetime-local"]::placeholder, input[type="text"]::placeholder, input[type="date"]::placeholder, input[type="time"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder, .selectContainer input::placeholder { */
@@ -90,7 +90,7 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 }
 
 .listItem .item.active {
-  @apply bg-brand-yellow text-white !important;
+  @apply bg-brand-green text-white !important;
 }
 
 /* Reset */

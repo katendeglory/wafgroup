@@ -276,7 +276,7 @@ body {
   color: #eceff1;
 }
 
-.nouraneCards {
+.waf-groupCards {
   position: relative;
 }
 
@@ -286,7 +286,7 @@ body {
   gap: 2.5em;
 }
 
-.nouraneCard {
+.waf-groupCard {
   --flow-space: 0.5em;
   --hsl: var(--hue), var(--saturation), var(--lightness);
   flex: 1 1 14rem;
@@ -301,19 +301,19 @@ body {
   border-radius: 15px;
 }
 
-.nouraneCard:nth-child(1) {
+.waf-groupCard:nth-child(1) {
   --hue: 165;
   --saturation: 82.26%;
   --lightness: 51.37%;
 }
 
-.nouraneCard:nth-child(2) {
+.waf-groupCard:nth-child(2) {
   --hue: 37;
   --saturation: 56%;
   --lightness: 59%;
 }
 
-.nouraneCard:nth-child(3) {
+.waf-groupCard:nth-child(3) {
   --hue: 338.69;
   --saturation: 100%;
   --lightness: 48.04%;
@@ -344,7 +344,7 @@ body {
   margin-top: var(--flow-space, 1.25em);
 }
 
-.nouraneCta {
+.waf-groupCta {
   display: block;
   align-self: end;
   margin: 1em 0 0.5em 0;
@@ -358,7 +358,7 @@ body {
   font-weight: 600;
 }
 
-.nouraneOverlay {
+.waf-groupOverlay {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -374,13 +374,13 @@ body {
   will-change: mask;
 }
 
-.nouraneOverlay .nouraneCard {
+.waf-groupOverlay .waf-groupCard {
   background-color: hsla(var(--hsl), 0.15);
   border-color: hsla(var(--hsl), 1);
   box-shadow: 0 0 0 1px inset hsl(var(--hsl));
 }
 
-.nouraneOverlay .nouraneCta {
+.waf-groupOverlay .waf-groupCta {
   display: block;
   grid-row: -1;
   width: 100%;
@@ -388,12 +388,12 @@ body {
   box-shadow: 0 0 0 1px hsl(var(--hsl));
 }
 
-:not(.nouraneOverlay)>.nouraneCard {
+:not(.waf-groupOverlay)>.waf-groupCard {
   transition: 400ms background ease;
   will-change: background;
 }
 
-:not(.nouraneOverlay)>.nouraneCard:hover {
+:not(.waf-groupOverlay)>.waf-groupCard:hover {
   --lightness: 95%;
   background: hsla(var(--hsl), 0.1);
 }

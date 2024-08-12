@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         "brand-white": "#fafafa",
         // "brand-orange": "#F4A261",
-        "brand-yellow": "#d1a45a",
+        "brand-green": "#2E7D32",
         "brand-blue": "#3e568b",
         "brand-red": "#e06167",
       },

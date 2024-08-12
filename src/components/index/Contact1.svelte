@@ -13,7 +13,7 @@
         </div>
 
         <div
-          class="h-font text-brand-yellow text-2xl text-center mb-4 uppercase tracking-widest"
+          class="h-font text-brand-green text-2xl text-center mb-4 uppercase tracking-widest"
         >
           Republique Démocratique du Congo.
         </div>
@@ -30,19 +30,19 @@
           <div class="text-gray-200 text-sm md:text-base text-center">
             <a href="tel:+243993040340" class="contact-box !text-gray-300">
               <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
+                class="material-symbols-outlined mr-2 text-3xl text-brand-green"
               >
                 phone_callback
               </span>
               +243993040340
             </a>
-            <a href="mail:info@nourane.net" class="contact-box !text-gray-300">
+            <a href="mail:info@WAF.net" class="contact-box !text-gray-300">
               <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
+                class="material-symbols-outlined mr-2 text-3xl text-brand-green"
               >
                 alternate_email
               </span>
-              info@nourane.net
+              info@WAF.net
             </a>
             <a
               href="https://wa.me/+243993040340"

@@ -6,7 +6,7 @@
 
 <div class="w-full h-64 flex flex-col items-center justify-center">
   <h1
-    class="mb-6 uppercase text-brand-yellow text-xl animate-pulse tracking-widest"
+    class="mb-6 uppercase text-brand-green text-xl animate-pulse tracking-widest"
   >
     {text}
   </h1>

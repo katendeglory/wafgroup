@@ -28,7 +28,7 @@
       {role}
     </div>
     <div
-      class="mt-2 tracking-widest text-xs uppercase text-brand-yellow flex items-center justify-center"
+      class="mt-2 tracking-widest text-xs uppercase text-brand-green flex items-center justify-center"
     >
       WAF Group
     </div>

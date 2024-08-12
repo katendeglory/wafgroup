@@ -7,7 +7,7 @@
     <span class="flex items-center">
       <ion-icon
         name="information-circle"
-        class="text-3xl text-brand-yellow mr-2"
+        class="text-3xl text-brand-green mr-2"
       />
     </span>
     {text}

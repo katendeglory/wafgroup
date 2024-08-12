@@ -78,7 +78,7 @@
     <Container>
       <div class="h-font text-5xl md:text-6xl lg:text-7xl">
         <span class="text-gray-900">EN</span>
-        <span class="text-brand-yellow/80 uppercase">Images</span>
+        <span class="text-brand-green/80 uppercase">Images</span>
       </div>
 
       <div

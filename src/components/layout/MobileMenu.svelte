@@ -31,7 +31,7 @@
   />
 {/if}
 
-<div class="block lg:hidden text-brand-yellow relative z-[999]">
+<div class="block lg:hidden text-brand-green relative z-[999]">
   <button class="focus:outline-none" on:click={toggleMenu}>
     <ion-icon name="menu-outline" class="text-3xl" />
   </button>

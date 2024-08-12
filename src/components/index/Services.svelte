@@ -4,10 +4,12 @@
   onMount(async () => {
     // console.clear();
 
-    const cardsContainer = document.querySelector(".nouraneCards");
+    const cardsContainer = document.querySelector(".waf-groupCards");
     const cardsContainerInner = document.querySelector(".cards__inner");
-    const nouraneCards = Array.from(document.querySelectorAll(".nouraneCard"));
-    const nouraneOverlay = document.querySelector(".nouraneOverlay");
+    const wafGroupCards = Array.from(
+      document.querySelectorAll(".waf-groupCard"),
+    );
+    const wafGroupOverlay = document.querySelector(".waf-groupOverlay");
 
     const applyOverlayMask = (e) => {
       const overlayEl = e.currentTarget;
@@ -19,7 +21,7 @@
 
     const createOverlayCta = (overlayCard, ctaEl) => {
       const overlayCta = document.createElement("div");
-      overlayCta.classList.add("nouraneCta");
+      overlayCta.classList.add("waf-groupCta");
       overlayCta.textContent = ctaEl.textContent;
       overlayCta.setAttribute("aria-hidden", true);
       overlayCard.append(overlayCta);
@@ -27,26 +29,26 @@
 
     const observer = new ResizeObserver((entries) => {
       entries.forEach((entry) => {
-        const cardIndex = nouraneCards.indexOf(entry.target);
+        const cardIndex = wafGroupCards.indexOf(entry.target);
         let width = entry.borderBoxSize[0].inlineSize;
         let height = entry.borderBoxSize[0].blockSize;
 
         if (cardIndex >= 0) {
-          nouraneOverlay.children[cardIndex].style.width = `${width}px`;
-          nouraneOverlay.children[cardIndex].style.height = `${height}px`;
+          wafGroupOverlay.children[cardIndex].style.width = `${width}px`;
+          wafGroupOverlay.children[cardIndex].style.height = `${height}px`;
         }
       });
     });
 
     const initOverlayCard = (cardEl) => {
       const overlayCard = document.createElement("div");
-      overlayCard.classList.add("nouraneCard");
+      overlayCard.classList.add("waf-groupCard");
       createOverlayCta(overlayCard, cardEl.lastElementChild);
-      nouraneOverlay.append(overlayCard);
+      wafGroupOverlay.append(overlayCard);
       observer.observe(cardEl);
     };
 
-    nouraneCards.forEach(initOverlayCard);
+    wafGroupCards.forEach(initOverlayCard);
 
     document
       .querySelector(".great-container")
@@ -64,9 +66,9 @@
         WAF Group mets a votre disposition une variété de services
       </div>
     </h1>
-    <div class="main__cards nouraneCards">
+    <div class="main__cards waf-groupCards">
       <div class="cards__inner">
-        <div class="cards__card nouraneCard">
+        <div class="cards__card waf-groupCard">
           <h2 class="card__heading">Events</h2>
           <p class="card__price capitalize">Déco des évènements</p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
@@ -108,12 +110,12 @@
               Mariages
             </li>
           </ul>
-          <a href="/#contact" class="card__cta nouraneCta">Nous Contacter</a>
+          <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>
 
-        <div class="cards__card nouraneCard">
+        <div class="cards__card waf-groupCard">
           <h2 class="card__heading">In-Design</h2>
-          <p class="card__price capitalize">Décoration d'interieur</p>
+          <p class="card__price capitalize">Groupation d'interieur</p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
           <ul role="list" class="card__bullets flow">
             <li class="flex items-start text-[0.9rem]">
@@ -153,10 +155,10 @@
               Et bien plus...
             </li>
           </ul>
-          <a href="/#contact" class="card__cta nouraneCta">Nous Contacter</a>
+          <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>
 
-        <div class="cards__card nouraneCard">
+        <div class="cards__card waf-groupCard">
           <h2 class="card__heading">Protection</h2>
           <p class="card__price capitalize">Vente des équipements E.P.I</p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
@@ -216,11 +218,11 @@
               Et plus...
             </li>
           </ul>
-          <a href="/#contact" class="card__cta nouraneCta">Nous Contacter</a>
+          <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>
       </div>
 
-      <div class="nouraneOverlay cards__inner" />
+      <div class="waf-groupOverlay cards__inner" />
     </div>
   </main>
 </div>

@@ -7,7 +7,7 @@
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/04.mp4" /* Put a source here... */;
+    vid.src = "/videos/trailer-01.mp4" /* Put a source here... */;
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;
@@ -29,33 +29,34 @@
       <source type="video/mp4" />
     </video>
   </div>
+
   <div class="content text-gray-300">
     <Container>
       <div class="relative flex flex-col md:flex-row">
         <!--  -->
         <!--  -->
         <div class="relative z-10 h-screen w-full lg:w-3/5 flex items-center">
-          <div class="w-[3rem] flex flex-col justify-center text-brand-yellow">
+          <div class="w-[3rem] flex flex-col justify-center text-brand-green">
             <a href="https://wa.me/+243993040340" about="_blank">
               <ion-icon name="logo-whatsapp" class="text-xl md:text-2xl mb-5" />
             </a>
-            <a href="https://instagram.com/nourane_decor" about="_blank">
+            <a href="https://instagram.com/WAF_decor" about="_blank">
               <ion-icon name="logo-facebook" class="text-xl md:text-2xl mb-5" />
             </a>
-            <a href="https://instagram.com/nourane_decor" about="_blank">
+            <a href="https://instagram.com/WAF_decor" about="_blank">
               <ion-icon
                 name="logo-instagram"
                 class="text-xl md:text-2xl mb-5"
               />
             </a>
-            <a href="mailto:benitha@nourane.net" about="_blank">
+            <a href="mailto:benitha@WAF.net" about="_blank">
               <ion-icon name="mail" class="text-xl md:text-2xl mb-0" />
             </a>
           </div>
           <!--  -->
           <div class="relative z-10 h-full w-full flex flex-col justify-center">
             <div class="flex items-center pl-1">
-              <div class="h-[1px] w-[2rem] bg-brand-yellow mr-2" />
+              <div class="h-[1px] w-[2rem] bg-brand-green mr-2" />
               Achetez vos rêves chez nous
             </div>
 
@@ -63,18 +64,18 @@
               class="mb-5 h-font font-bold text-[2.75rem] leading-[3.75rem] sm:text-6xl md:text-6xl lg:text-8xl"
             >
               <span
-                class="text-brand-yellow flex items-center text-[3.75rem] md:text-[4.5rem] lg:text-[7rem]"
+                class="text-brand-green flex items-center text-[3.75rem] md:text-[4.5rem] lg:text-[7rem]"
               >
-                Nourane
+                WAF
               </span>
               <div class="lg:!-mt-4">
-                <span> Décor</span>
+                <span> GROUP</span>
               </div>
             </h1>
 
             <p class="mb-5">
               <span class="h-font font-semibold"> WAF Group™ </span>
-              est une entreprise qui œuvre dans la décoration des évènements ainsi
+              est une entreprise qui œuvre dans la Groupation des évènements ainsi
               que la déco d'interieur.
             </p>
 

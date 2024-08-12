@@ -7,13 +7,13 @@
   /* JS IMPORTS */
   import NavBar from "../components/layout/NavBar.svelte";
   import { onMount } from "svelte";
-  import loadData from "../functions/loadData";
+  // import loadData from "../functions/loadData";
   import { afterNavigate, beforeNavigate } from "$app/navigation";
 
   let loading = true;
 
   onMount(async () => {
-    await loadData().catch((err) => console.log(err));
+    // await loadData().catch((err) => console.log(err));
 
     setTimeout(async () => {
       loading = false;

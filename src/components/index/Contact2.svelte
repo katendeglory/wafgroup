@@ -15,7 +15,7 @@
     sending = true;
     let templateParams = message;
     emailjs
-      .send("service_nourane_decor", "template_nourane_decor", templateParams)
+      .send("service_WAF_decor", "template_WAF_decor", templateParams)
       .then(
         (response) => {
           sending = false;
@@ -27,7 +27,7 @@
           console.log(`🙂 The email service is down!`);
           console.log("FAILED...", error);
           sending = false;
-        }
+        },
       );
   };
 </script>
@@ -41,7 +41,7 @@
       class="min-h-screen grid grid-cols-1 md:grid-cols-2 pt-16 pb-16"
     >
       <h1
-        class="mb-4 col-span-full text-center py-1 text-transparent fill-current bg-clip-text bg-gradient-to-r from-brand-yellow to-yellow-300 uppercase h-font font-bold text-5xl md:text-6xl"
+        class="mb-4 col-span-full text-center py-1 text-transparent fill-current bg-clip-text bg-gradient-to-r from-brand-green to-green-300 uppercase h-font font-bold text-5xl md:text-6xl"
       >
         Contactez Nous
       </h1>
@@ -53,7 +53,7 @@
         >
           <h1 class="opacity-75 flex items-center">
             <span
-              class="material-symbols-outlined text-3xl mr-1 text-brand-yellow"
+              class="material-symbols-outlined text-3xl mr-1 text-brand-green"
             >
               edit_note
             </span>

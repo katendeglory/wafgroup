@@ -8,13 +8,13 @@
       <div class="py-3 flex items-center justify-between md:justify-start">
         <div>WAF Group @2023</div>
         <a
-          class="md:whitespace-nowrap text-brand-yellow ml-2 text-right flex items-center"
+          class="md:whitespace-nowrap text-brand-green ml-2 text-right flex items-center"
           target="_blank"
           href="https://glorykatende.com"
         >
           🎨 By Glory K.
           <span
-            class="material-symbols-outlined text-3xl text-brand-yellow ml-1"
+            class="material-symbols-outlined text-3xl text-brand-green ml-1"
           >
             trending_flat
           </span>

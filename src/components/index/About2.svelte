@@ -11,7 +11,7 @@
     <Container>
       <div class="h-font text-white text-4xl md:text-6xl font-bold">
         Une team d'experts,
-        <div class="mt-4 text-brand-yellow">A votre disposition...</div>
+        <div class="mt-4 text-brand-green">A votre disposition...</div>
       </div>
 
       <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -21,7 +21,7 @@
           <div class="pt-4 flex items-center">
             Voici notre procedé en quelques étapes :
             <span
-              class="material-symbols-outlined ml-2 text-4xl text-brand-yellow"
+              class="material-symbols-outlined ml-2 text-4xl text-brand-green"
             >
               trending_flat
             </span>
@@ -32,7 +32,7 @@
       <div class="mt-10 text-gray-400 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
           <div
-            class="text-2xl mb-4 text-brand-yellow h-font font-semibold uppercase flex items-center"
+            class="text-2xl mb-4 text-brand-green h-font font-semibold uppercase flex items-center"
           >
             <span class="material-symbols-outlined mr-2 text-4xl">
               webhook
@@ -47,7 +47,7 @@
         </div>
         <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
           <div
-            class="text-2xl mb-4 text-brand-yellow h-font font-semibold uppercase flex items-center"
+            class="text-2xl mb-4 text-brand-green h-font font-semibold uppercase flex items-center"
           >
             <span class="material-symbols-outlined mr-2 text-4xl">
               emoji_objects
@@ -62,7 +62,7 @@
         </div>
         <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
           <div
-            class="text-2xl mb-4 text-brand-yellow h-font font-semibold uppercase flex items-center"
+            class="text-2xl mb-4 text-brand-green h-font font-semibold uppercase flex items-center"
           >
             <span class="material-symbols-outlined mr-2 text-4xl">
               devices
@@ -77,7 +77,7 @@
         </div>
         <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
           <div
-            class="text-2xl mb-4 text-brand-yellow h-font font-semibold uppercase flex items-center"
+            class="text-2xl mb-4 text-brand-green h-font font-semibold uppercase flex items-center"
           >
             <span class="material-symbols-outlined mr-2 text-4xl">
               engineering

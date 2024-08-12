@@ -24,7 +24,7 @@
     <Container>
       <div class="h-font text-6xl md:text-6xl lg:text-7xl">
         <span class="text-brand-green">NOTRE</span>
-        <span class="text-brand-yellow/80 uppercase">équipe</span>
+        <span class="text-brand-green/80 uppercase">équipe</span>
       </div>
 
       <div class="mt-4">
@@ -37,9 +37,7 @@
 
     <div class="mt-6 relative">
       <Container>
-        <div
-          class="py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
-        >
+        <div class="py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {#each people as person}
             <PersonCard {...person} />
           {/each}
@@ -52,14 +50,16 @@
 <style>
   @media (min-width: 700px) {
     .mixed-bg {
-      background: url(/images/curve-top.svg) no-repeat top,
+      background:
+        url(/images/curve-top.svg) no-repeat top,
         url(/images/curve-bottom.svg) no-repeat bottom;
       background-size: 100vw;
     }
   }
   @media (max-width: 699px) {
     .mixed-bg {
-      background: url(/images/curve-top.svg) no-repeat top,
+      background:
+        url(/images/curve-top.svg) no-repeat top,
         url(/images/curve-bottom.svg) no-repeat bottom;
     }
   }

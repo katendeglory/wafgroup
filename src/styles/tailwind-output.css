@@ -1649,6 +1649,11 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 768px) {

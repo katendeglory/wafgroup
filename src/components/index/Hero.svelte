@@ -55,9 +55,9 @@
           </div>
           <!--  -->
           <div class="relative z-10 h-full w-full flex flex-col justify-center">
-            <div class="flex items-center pl-1">
+            <div class="text-xs sm:text-sm flex items-center pl-1 mb-2">
               <div class="h-[1px] w-[2rem] bg-brand-green mr-2" />
-              Achetez vos rêves chez nous
+              Experts en Solutions Financières
             </div>
 
             <h1
@@ -74,9 +74,12 @@
             </h1>
 
             <p class="mb-5">
-              <span class="h-font font-semibold"> WAF Group™ </span>
-              est une entreprise qui œuvre dans la Groupation des évènements ainsi
-              que la déco d'interieur.
+              Bienvenue sur le site officiel de <span
+                class="h-font font-semibold"
+              >
+                WAF Group™.
+              </span> Bénéficiez d'une expertise financière sur mesure pour optimiser
+              toutes vos activités.
             </p>
 
             <div

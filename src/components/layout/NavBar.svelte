@@ -139,7 +139,9 @@
               class="btn btn-primary !py-1 h-[2.75rem]"
             >
               Nous Contacter
-              <ion-icon name="logo-whatsapp" class="text-xl ml-2" />
+              <span class="material-symbols-outlined text-3xl ml-2">
+                perm_phone_msg
+              </span>
             </a>
           {/if}
         </div>

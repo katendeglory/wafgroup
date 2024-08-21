@@ -1,59 +1,39 @@
 <script>
-  import { onMount } from "svelte";
+  const bloc1 = [
+    "Quickbooks",
+    "Dext",
+    "Sage 50",
+    "Sage cloud",
+    "Odoo",
+    "Acomba",
+    "Microsoft dynamic 360",
+    "Sage 100",
+    "Bien d'autres",
+  ];
 
-  onMount(async () => {
-    // console.clear();
+  const bloc2 = [
+    "Configuration de logiciels",
+    "Tenue de livres",
+    "Assistance comptable personnalisée",
+    "Migration de logiciels comptable",
+    "Services conseils",
+    "Optimisation des processus comptables",
+    "Réorganisation administrative",
+    "Réajustement des comptes",
+  ];
 
-    const cardsContainer = document.querySelector(".waf-groupCards");
-    const cardsContainerInner = document.querySelector(".cards__inner");
-    const wafGroupCards = Array.from(
-      document.querySelectorAll(".waf-groupCard"),
-    );
-    const wafGroupOverlay = document.querySelector(".waf-groupOverlay");
+  const bloc3 = [
+    "Accompagnement lors des vérifications fiscales",
+    "Vérification interne de la comptabilité",
+    "Représentation auprès de l'agence revenu Canada et revenu Québec",
+    "Rapport de taxes",
+    "Service de paie",
+    "Préparation de déclaration de revenus:",
+  ];
 
-    const applyOverlayMask = (e) => {
-      const overlayEl = e.currentTarget;
-      const x = e.pageX - cardsContainer.offsetLeft;
-      const y = e.pageY - cardsContainer.offsetTop;
-
-      overlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
-    };
-
-    const createOverlayCta = (overlayCard, ctaEl) => {
-      const overlayCta = document.createElement("div");
-      overlayCta.classList.add("waf-groupCta");
-      overlayCta.textContent = ctaEl.textContent;
-      overlayCta.setAttribute("aria-hidden", true);
-      overlayCard.append(overlayCta);
-    };
-
-    const observer = new ResizeObserver((entries) => {
-      entries.forEach((entry) => {
-        const cardIndex = wafGroupCards.indexOf(entry.target);
-        let width = entry.borderBoxSize[0].inlineSize;
-        let height = entry.borderBoxSize[0].blockSize;
-
-        if (cardIndex >= 0) {
-          wafGroupOverlay.children[cardIndex].style.width = `${width}px`;
-          wafGroupOverlay.children[cardIndex].style.height = `${height}px`;
-        }
-      });
-    });
-
-    const initOverlayCard = (cardEl) => {
-      const overlayCard = document.createElement("div");
-      overlayCard.classList.add("waf-groupCard");
-      createOverlayCta(overlayCard, cardEl.lastElementChild);
-      wafGroupOverlay.append(overlayCard);
-      observer.observe(cardEl);
-    };
-
-    wafGroupCards.forEach(initOverlayCard);
-
-    document
-      .querySelector(".great-container")
-      .addEventListener("pointermove", applyOverlayMask);
-  });
+  const bloc3Sub = [
+    "Impôts personnel, des travailleurs autonomes, des non résidents, PME & propriétaires immobiliers.",
+  ];
 </script>
 
 <div id="services" />
@@ -68,155 +48,85 @@
     </h1>
     <div class="main__cards waf-groupCards">
       <div class="cards__inner">
-        <div class="cards__card waf-groupCard">
-          <h2 class="card__heading">Events</h2>
-          <p class="card__price capitalize">Déco des évènements</p>
+        <div class="cards__card waf-groupCard shadow-xl">
+          <h2
+            class="card__heading px-2 py-1 bg-brand-green text-white rounded-md w-min whitespace-nowrap"
+          >
+            Bloc 1
+          </h2>
+          <p class="card__price">
+            Logiciels de <span class="hidden sm:block" /> Gestion
+          </p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
           <ul role="list" class="card__bullets flow">
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Enterrement de vie de jeune fille (Bridal Shower)
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Demandes en mariage (Proposals)
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Fêtes d'anniversaire
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Mariages
-            </li>
+            {#each bloc1 as item}
+              <li class="flex items-start text-[0.9rem]">
+                <span class="mt-[0.04rem] items-center justify-center">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    class="text-lg mr-2 text-gray-400"
+                  />
+                </span>
+                {item}
+              </li>
+            {/each}
           </ul>
           <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>
 
-        <div class="cards__card waf-groupCard">
-          <h2 class="card__heading">In-Design</h2>
-          <p class="card__price capitalize">Groupation d'interieur</p>
+        <div class="cards__card waf-groupCard shadow-xl">
+          <h2
+            class="card__heading px-2 py-1 bg-brand-green text-white rounded-md w-min whitespace-nowrap"
+          >
+            Bloc 2
+          </h2>
+          <p class="card__price">Comptabilité & Solutions Cloud</p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
           <ul role="list" class="card__bullets flow">
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Vente des matériaux de déco maison
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Conseil en arrangement des décos maison
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Accompagnement dans le choix de couleurs pour votre maison
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Et bien plus...
-            </li>
+            {#each bloc2 as item}
+              <li class="flex items-start text-[0.9rem]">
+                <span class="mt-[0.04rem] items-center justify-center">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    class="text-lg mr-2 text-gray-400"
+                  />
+                </span>
+                {item}
+              </li>
+            {/each}
           </ul>
           <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>
 
-        <div class="cards__card waf-groupCard">
-          <h2 class="card__heading">Protection</h2>
-          <p class="card__price capitalize">Vente des équipements E.P.I</p>
+        <div class="cards__card waf-groupCard shadow-xl">
+          <h2
+            class="card__heading px-2 py-1 bg-brand-green text-white rounded-md w-min whitespace-nowrap"
+          >
+            Bloc 3
+          </h2>
+          <p class="card__price">
+            Services de <span class="hidden sm:block" /> Fiscalité
+          </p>
           <!-- svelte-ignore a11y-no-redundant-roles -->
           <ul role="list" class="card__bullets flow">
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Jacket safety anti froid
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Chemise de site pour gestionnaire
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Chemise de site pour gestionnaire
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Boots PVC
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Casque PVC
-            </li>
-            <li class="flex items-start text-[0.9rem]">
-              <span class="mt-[0.08rem] items-center justify-center">
-                <ion-icon
-                  name="checkmark-done-outline"
-                  class="text-lg mr-2 text-gray-400"
-                />
-              </span>
-              Et plus...
-            </li>
+            {#each bloc3 as item}
+              <li class="flex items-start text-[0.9rem]">
+                <span class="mt-[0.04rem] items-center justify-center">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    class="text-lg mr-2 text-gray-400"
+                  />
+                </span>
+                {item}
+              </li>
+            {/each}
+            {#each bloc3Sub as item}
+              <li
+                class="ml-7 flex items-start justify-center text-[0.75rem] rounded-md px-2 py-2 bg-gray-200/50"
+              >
+                {item}
+              </li>
+            {/each}
           </ul>
           <a href="/#contact" class="card__cta waf-groupCta">Nous Contacter</a>
         </div>

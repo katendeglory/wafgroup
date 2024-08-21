@@ -36,21 +36,23 @@
         <!--  -->
         <!--  -->
         <div class="relative z-10 h-screen w-full lg:w-3/5 flex items-center">
-          <div class="w-[3rem] flex flex-col justify-center text-brand-green">
+          <div
+            class="w-[3rem] flex flex-col justify-center space-y-2 md:space-y-3"
+          >
+            <a href="https://instagram.com/WAF_decor" about="_blank">
+              <img src="/images/icons/icon-fb.png" class="w-8" alt="" />
+            </a>
+            <a href="https://instagram.com/WAF_decor" about="_blank">
+              <img src="/images/icons/icon-ig.png" class="w-8" alt="" />
+            </a>
             <a href="https://wa.me/+243993040340" about="_blank">
-              <ion-icon name="logo-whatsapp" class="text-xl md:text-2xl mb-5" />
+              <img src="/images/icons/icon-w.png" class="w-8" alt="" />
             </a>
-            <a href="https://instagram.com/WAF_decor" about="_blank">
-              <ion-icon name="logo-facebook" class="text-xl md:text-2xl mb-5" />
+            <a href="https://x.com" about="_blank">
+              <img src="/images/icons/icon-x.png" class="w-8" alt="" />
             </a>
-            <a href="https://instagram.com/WAF_decor" about="_blank">
-              <ion-icon
-                name="logo-instagram"
-                class="text-xl md:text-2xl mb-5"
-              />
-            </a>
-            <a href="mailto:benitha@WAF.net" about="_blank">
-              <ion-icon name="mail" class="text-xl md:text-2xl mb-0" />
+            <a href="https://linkedin.com" about="_blank">
+              <img src="/images/icons/icon-in.png" class="w-8" alt="" />
             </a>
           </div>
           <!--  -->
@@ -61,10 +63,10 @@
             </div>
 
             <h1
-              class="mb-5 h-font font-bold text-[2.75rem] leading-[3.75rem] sm:text-6xl md:text-6xl lg:text-8xl"
+              class="mb-5 h-font font-bold text-[4rem] leading-[4rem] sm:text-6xl md:text-6xl lg:text-8xl"
             >
               <span
-                class="text-brand-green flex items-center text-[3.75rem] md:text-[4.5rem] lg:text-[7rem]"
+                class="text-brand-green flex items-center text-[5.5rem] md:text-[4.5rem] lg:text-[7rem]"
               >
                 WAF
               </span>
@@ -97,7 +99,9 @@
                 class="btn btn-dimmed ml-0 md:ml-4 mt-2 md:mt-0 !w-[90%] sm:!w-min h-[3.2rem]"
               >
                 Nous Contacter
-                <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
+                <span class="material-symbols-outlined text-3xl ml-2">
+                  perm_phone_msg
+                </span>
               </a>
             </div>
           </div>
@@ -109,7 +113,7 @@
           class="w-full pb-12 md:pb-0 md:h-screen lg:w-2/5 hidden md:flex items-center justify-center relative z-10"
         >
           <!-- <LottiePlayer
-            src="/images/hero.json"
+            src="/images/hero-5.json"
             autoplay={true}
             loop={true}
             controls={false}
@@ -117,6 +121,8 @@
             background="transparent"
             width={500}
           /> -->
+
+          <img src="/favicon.png" class="w-56" alt="fav" />
         </div>
       </div>
     </Container>

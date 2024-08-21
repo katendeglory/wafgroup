@@ -3,7 +3,7 @@
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/01.mp4";
+    vid.src = "/videos/trailer-02.mp4";
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;
@@ -22,7 +22,7 @@
 
 <div class="pb-16 hidden" />
 
-<div class="h-screen relative">
+<div class="h-[75vh] relative">
   <div class="media-overlay z-10 absolute top-0 left-0 right-0 bottom-0">
     <div class="absolute top-0 left-0 w-full right-0">
       <div class="pt-10 max-w-[76rem] mx-auto px-4 lg:px-2 flex justify-end">
@@ -46,33 +46,13 @@
         <div class="max-w-[76rem] mx-auto px-4 lg:px-2 mb-8">
           <div class="w-full flex flex-col md:flex-row md:justify-between">
             <div
-              class="k-font tracking-wider font-extralight uppercase text-white glassmorph-thin px-2 py-2 sm:px-4 sm:py-4 rounded-md border border-white/10 text-xl lg:text-2xl md:mr-8"
+              class="tracking-wider font-extralight text-white glassmorph-thin px-4 py-4 sm:px-6 sm:py-6 rounded-md border border-white/10 text-base lg:text-lg md:text-center"
             >
-              WAF Group est à votre disposition pour emmener à la vie vos rêves
-              de Groupation et rendre vos événements inoubliables.
-            </div>
-            <div class="w-full md:w-[7.5rem] flex flex-col justify-between">
-              <span
-                class="hidden md:inline text-base md:mb-3 lg:mb-2 k-font font-thin uppercase tracking-widest"
-              >
-                L'équipe
-              </span>
-              <a
-                href="/#team"
-                class="btn btn-primary mt-4 md:mt-0 !py-2 !px-2 !w-full !h-full !shadow-none"
-              >
-                <span
-                  class="material-symbols-outlined text-4xl hidden md:inline"
-                >
-                  enable
-                </span>
-                <span class="material-symbols-outlined text-3xl md:hidden">
-                  enable
-                </span>
-                <span class="md:hidden ml-2 capitalize">
-                  Voir Notre équipe
-                </span>
-              </a>
+              Nous sommes impatients de vous aider à atteindre vos objectifs
+              financiers et à assurer la prospérité de votre entreprise.
+              <div class="mb-2 sm:hidden" />
+              N'hésitez pas à nous contacter pour discuter de vos besoins et de la
+              manière dont nous pouvons vous assister.
             </div>
           </div>
         </div>

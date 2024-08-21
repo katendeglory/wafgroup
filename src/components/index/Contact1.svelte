@@ -15,14 +15,14 @@
         <div
           class="h-font text-brand-green text-2xl text-center mb-4 uppercase tracking-widest"
         >
-          Republique Démocratique du Congo.
+          Canada - Quebec
         </div>
 
         <div
           class="k-font tracking-widest text-lg mb-4 flex items-center justify-center"
         >
           <div class="flex items-center justify-center tracking-wide">
-            « Achetez vos rêves chez nous! »
+            « Votre Partenaire de Solutions Financières Complètes »
           </div>
         </div>
 
@@ -43,14 +43,6 @@
                 alternate_email
               </span>
               info@WAF.net
-            </a>
-            <a
-              href="https://wa.me/+243993040340"
-              about="_blank"
-              class="mt-4 btn btn-primary !px-12 !py-1 h-[2.75rem]"
-            >
-              <ion-icon name="logo-whatsapp" class="text-xl mr-2" />
-              Whatsapp
             </a>
           </div>
         </div>

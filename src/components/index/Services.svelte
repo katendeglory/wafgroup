@@ -61,10 +61,10 @@
           <ul role="list" class="card__bullets flow">
             {#each bloc1 as item}
               <li class="flex items-start text-[0.9rem]">
-                <span class="mt-[0.04rem] items-center justify-center">
+                <span class="mt-[0.15rem] items-center justify-center">
                   <ion-icon
-                    name="checkmark-done-outline"
-                    class="text-lg mr-2 text-gray-400"
+                    name="checkmark-circle-outline"
+                    class="text-lg mr-2 text-brand-green"
                   />
                 </span>
                 {item}
@@ -85,10 +85,10 @@
           <ul role="list" class="card__bullets flow">
             {#each bloc2 as item}
               <li class="flex items-start text-[0.9rem]">
-                <span class="mt-[0.04rem] items-center justify-center">
+                <span class="mt-[0.15rem] items-center justify-center">
                   <ion-icon
-                    name="checkmark-done-outline"
-                    class="text-lg mr-2 text-gray-400"
+                    name="checkmark-circle-outline"
+                    class="text-lg mr-2 text-brand-green"
                   />
                 </span>
                 {item}
@@ -111,10 +111,10 @@
           <ul role="list" class="card__bullets flow">
             {#each bloc3 as item}
               <li class="flex items-start text-[0.9rem]">
-                <span class="mt-[0.04rem] items-center justify-center">
+                <span class="mt-[0.15rem] items-center justify-center">
                   <ion-icon
-                    name="checkmark-done-outline"
-                    class="text-lg mr-2 text-gray-400"
+                    name="checkmark-circle-outline"
+                    class="text-lg mr-2 text-brand-green"
                   />
                 </span>
                 {item}
@@ -122,7 +122,7 @@
             {/each}
             {#each bloc3Sub as item}
               <li
-                class="ml-7 flex items-start justify-center text-[0.75rem] rounded-md px-2 py-2 bg-gray-200/50"
+                class="mt-2 ml-7 flex items-start justify-center text-[0.75rem] rounded-md px-2 py-2 bg-gray-200/50"
               >
                 {item}
               </li>

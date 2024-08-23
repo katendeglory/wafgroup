@@ -7,9 +7,12 @@
 <div class="text-gray-900 min-h-screen relative">
   <div class="min-h-screen py-16">
     <Container>
-      <div class="h-font text-4xl md:text-6xl font-bold">
-        <div class="mb-2 text-brand-green text-xl md:text-2xl">
-          Qui nous sommes...
+      <div class="text-4xl md:text-6xl">
+        <div
+          class="text-sm sm:text-base flex items-center pl-1 mb-2 text-brand-green"
+        >
+          <div class="h-[1px] w-[2rem] bg-brand-green mr-2" />
+          Qui Nous Sommes
         </div>
         À Propos de Nous
       </div>

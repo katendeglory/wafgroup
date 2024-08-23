@@ -6,7 +6,7 @@
   <div class="pb-2">
     <Container>
       <div class="py-3 flex items-center justify-between md:justify-start">
-        <div>WAF Group @2023</div>
+        <div>WAF Group @2024</div>
         <a
           class="md:whitespace-nowrap text-brand-green ml-2 text-right flex items-center"
           target="_blank"

@@ -32,7 +32,8 @@ body {
 }
 
 .h-font {
-  font-family: 'Poppins', sans-serif !important;
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-family: 'Bricolage Grotesque', sans-serif !important;
   /* font-family: 'Rubik', sans-serif !important; */
   /* font-family: 'Montserrat', sans-serif !important; */
 }

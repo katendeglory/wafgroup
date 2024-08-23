@@ -28,21 +28,21 @@
 
         <div class="flex justify-center">
           <div class="text-gray-200 text-sm md:text-base text-center">
-            <a href="tel:+243993040340" class="contact-box !text-gray-300">
+            <a href="tel:+14383542509" class="contact-box !text-gray-300">
               <span
                 class="material-symbols-outlined mr-2 text-3xl text-brand-green"
               >
                 phone_callback
               </span>
-              +243993040340
+              +14383542509
             </a>
-            <a href="mail:info@WAF.net" class="contact-box !text-gray-300">
+            <a href="mail:info@wafgroup.net" class="contact-box !text-gray-300">
               <span
                 class="material-symbols-outlined mr-2 text-3xl text-brand-green"
               >
                 alternate_email
               </span>
-              info@WAF.net
+              info@wafgroup.net
             </a>
           </div>
         </div>

@@ -1,9 +1,10 @@
 <script>
+  import Container from "./../utils/Container.svelte";
   import { onMount } from "svelte";
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/trailer-02.mp4";
+    vid.src = "/videos/trailer-05.mp4";
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;
@@ -22,7 +23,7 @@
 
 <div class="pb-16 hidden" />
 
-<div class="h-[75vh] relative">
+<div class="h-[150vh] md:h-[100vh] relative">
   <div class="media-overlay z-10 absolute top-0 left-0 right-0 bottom-0">
     <div class="absolute top-0 left-0 w-full right-0">
       <div class="pt-10 max-w-[76rem] mx-auto px-4 lg:px-2 flex justify-end">
@@ -38,26 +39,96 @@
   </div>
 
   <div class="text-white h-full bg-black/10 relative z-20">
-    <div class="h-full flex flex-col justify-between">
-      <div class="h-full" />
-      <!--  -->
-      <!--  -->
-      <div class="bottom-part">
-        <div class="max-w-[76rem] mx-auto px-4 lg:px-2 mb-8">
-          <div class="w-full flex flex-col md:flex-row md:justify-between">
-            <div
-              class="tracking-wider font-extralight text-white glassmorph-thin px-4 py-4 sm:px-6 sm:py-6 rounded-md border border-white/10 text-base lg:text-lg md:text-center"
-            >
-              Nous sommes impatients de vous aider à atteindre vos objectifs
-              financiers et à assurer la prospérité de votre entreprise.
-              <div class="mb-2 sm:hidden" />
-              N'hésitez pas à nous contacter pour discuter de vos besoins et de la
-              manière dont nous pouvons vous assister.
+    <Container>
+      <div class="h-full flex flex-col justify-center pt-10 pb-4">
+        <div class="">
+          <!--  -->
+          <div class="text-2xl md:text-3xl font-thin">Nos Engagements:</div>
+          <!--  -->
+
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!--  -->
+            <div class="glassmorph-1 px-4 py-4 rounded-md">
+              <div
+                class="font-extralight flex uppercase text-xl md:text-xl items-center align-middle"
+              >
+                <ion-icon
+                  name="checkmark-circle"
+                  class="text-2xl text-brand-green mr-2"
+                />
+                Transparence
+              </div>
+              <div class="mt-3 text-sm text-gray-300">
+                Nous vous garantissons une transparence totale en fournissant
+                des informations claires sur les services, les frais et les
+                processus, tout en tenant les clients informés à chaque étape.
+              </div>
             </div>
+            <!--  -->
+            <!--  -->
+            <div class="glassmorph-1 px-4 py-4 rounded-md">
+              <div
+                class="font-extralight flex uppercase text-xl md:text-xl items-center align-middle"
+              >
+                <ion-icon
+                  name="checkmark-circle"
+                  class="text-2xl text-brand-green mr-2"
+                />
+                Confidentialité
+              </div>
+              <div class="mt-3 text-sm text-gray-300">
+                La confidentialité des clients est primordiale, avec des normes
+                de sécurité élevées pour protéger toutes les données financières
+                et personnelles.
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="glassmorph-1 px-4 py-4 rounded-md">
+              <div
+                class="font-extralight flex uppercase text-xl md:text-xl items-center align-middle"
+              >
+                <ion-icon
+                  name="checkmark-circle"
+                  class="text-2xl text-brand-green mr-2"
+                />
+                Excellence
+              </div>
+              <div class="mt-3 text-sm text-gray-300">
+                Nous nous engageons l'excellence en se perfectionnant sans
+                cesse, offrant ainsi des solutions toujours innovantes et à la
+                pointe de l'efficacité.
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="glassmorph-1 px-4 py-4 rounded-md">
+              <div
+                class="font-extralight flex uppercase text-xl md:text-xl items-center align-middle"
+              >
+                <ion-icon
+                  name="checkmark-circle"
+                  class="text-2xl text-brand-green mr-2"
+                />
+                Retour d'Expérience
+              </div>
+              <div class="mt-3 text-sm text-gray-300">
+                Les retours des clients sont essentiels pour améliorer les
+                services, et WAF Group accueille volontiers et encourage vos
+                suggestions et observations.
+              </div>
+            </div>
+            <!--  -->
           </div>
+          <!--  -->
+        </div>
+        <div
+          class="mt-14 rounded-md md:text-center max-w-[50rem] text-sm mx-auto"
+        >
+          <!--  -->
         </div>
       </div>
-    </div>
+    </Container>
   </div>
 </div>
 
@@ -96,10 +167,6 @@
     left: 0;
     background: rgba(0, 0, 0, 0.05);
     position: absolute;
-  }
-
-  .bottom-part {
-    /* box-shadow: none; */
   }
 
   .media-overlay {

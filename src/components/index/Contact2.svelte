@@ -33,7 +33,7 @@
 </script>
 
 <div
-  style="background-image: url(/images/galerie/02.jpg); background-size: cover; background-position: left;"
+  style="background-image: url(/images/02.jpg); background-size: cover; background-position: left;"
 >
   <Container>
     <div
@@ -45,11 +45,10 @@
       >
         Contactez Nous
       </h1>
-      <div class="overflow-hidden px-4">
+      <div class="overflow-hidden md:px-4">
         <form
           on:submit|preventDefault={handleSubmit}
-          class="w-full h-full grid grid-cols-1 gap-3 px-3 py-3 bg-cover shadow-md rounded-md"
-          style="background-image: url(./images/pattern.svg);"
+          class="w-full h-full grid grid-cols-1 gap-3 px-2 py-2 bg-cover shadow-md rounded-md bg-white"
         >
           <h1 class="opacity-75 flex items-center">
             <span

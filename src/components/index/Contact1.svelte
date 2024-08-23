@@ -2,18 +2,16 @@
   import Container from "../utils/Container.svelte";
 </script>
 
-<div class="relative showcase contact-bg">
-  <div
-    class="content overlay flex items-center text-gray-300 min-h-screen pt-14 pb-8 md:pt-0 md:pb-0"
-  >
+<div class="relative showcase patt-bg bg-brand-white">
+  <div class="content flex items-center text-gray-800 min-h-screen">
     <Container>
-      <div class="mb-2">
+      <div class="mb-2 h-full flex flex-col justify-center">
         <div class="flex items-center justify-center mb-4">
-          <img src="/images/logo-white.png" class="h-28 md:h-40" alt="arc" />
+          <img src="/favicon.png" class="h-28 md:h-48" alt="arc" />
         </div>
 
         <div
-          class="h-font text-brand-green text-2xl text-center mb-4 uppercase tracking-widest"
+          class="text-brand-primary text-brand-green text-3xl md:text-4xl text-center mb-4 uppercase tracking-widest"
         >
           Canada - Quebec
         </div>
@@ -21,28 +19,38 @@
         <div
           class="k-font tracking-widest text-lg mb-4 flex items-center justify-center"
         >
-          <div class="flex items-center justify-center tracking-wide">
+          <div
+            class="text-base flex items-center justify-center tracking-wide text-center"
+          >
             « Votre Partenaire de Solutions Financières Complètes »
           </div>
         </div>
 
         <div class="flex justify-center">
           <div class="text-gray-200 text-sm md:text-base text-center">
-            <a href="tel:+14383542509" class="contact-box !text-gray-300">
+            <a href="tel:+14383542509" class="contact-box !text-gray-800">
               <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-green"
+                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
               >
                 phone_callback
               </span>
-              +14383542509
+              +1 (438) 354 2509
             </a>
-            <a href="mail:info@wafgroup.net" class="contact-box !text-gray-300">
+            <a href="mail:info@wafgroup.net" class="contact-box !text-gray-800">
               <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-green"
+                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
               >
-                alternate_email
+                email
               </span>
               info@wafgroup.net
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=14383542509"
+              about="_blank"
+              class="mt-4 btn btn-primary !px-12 !py-1 h-[2.75rem]"
+            >
+              <ion-icon name="logo-whatsapp" class="text-xl mr-2" />
+              Whatsapp
             </a>
           </div>
         </div>
@@ -65,7 +73,7 @@
   }
 
   .content {
-    box-shadow: inset 50vw 0 70px -7px rgba(0, 0, 0, 0.05);
+    /* box-shadow: inset 50vw 0 70px -7px rgba(0, 0, 0, 0.05); */
     position: absolute;
     top: 0;
     left: 0;
@@ -74,8 +82,7 @@
     z-index: 2;
   }
 
-  .contact-bg {
-    background-color: rgb(17, 24, 39);
-    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.015'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  .patt-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 </style>

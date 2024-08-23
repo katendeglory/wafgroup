@@ -7,7 +7,7 @@
   import Contact2 from "../components/index/Contact2.svelte";
   import config from "../stores/config";
   import Services from "../components/index/Services.svelte";
-  import Team from "../components/index/Team.svelte";
+  import WhyUs from "../components/index/WhyUs.svelte";
 </script>
 
 <svelte:head>
@@ -18,7 +18,7 @@
 <About1 />
 <Services />
 <ShowCase />
-<Team />
+<WhyUs />
 
 <!-- <About2 /> -->
 

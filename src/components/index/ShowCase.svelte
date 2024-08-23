@@ -132,8 +132,6 @@
   </div>
 </div>
 
-<div class="py-12 sm:py-5" />
-
 <style>
   /* TODO, Fallback background here */
   .video-container {

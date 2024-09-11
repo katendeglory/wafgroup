@@ -19,7 +19,7 @@
   });
 </script>
 
-<div id="showcase" />
+<div id="engagements" />
 
 <div class="pb-16 hidden" />
 
@@ -27,7 +27,11 @@
   <div class="media-overlay z-10 absolute top-0 left-0 right-0 bottom-0">
     <div class="absolute top-0 left-0 w-full right-0">
       <div class="pt-10 max-w-[76rem] mx-auto px-4 lg:px-2 flex justify-end">
-        <img src="/images/logo.png" class="h-10 object-cover" alt="home" />
+        <img
+          src="/images/logo-white.png"
+          class="h-[1.75rem] object-cover"
+          alt="home"
+        />
       </div>
     </div>
   </div>

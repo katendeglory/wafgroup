@@ -90,17 +90,17 @@
               <a href="/#about" class="btn btn-primary !w-[90%] sm:!w-min">
                 A Propos
                 <span class="material-symbols-outlined text-3xl ml-2">
-                  trending_flat
+                  help
                 </span>
               </a>
               <a
                 href="https://wa.me/+243993040340"
                 about="_blank"
-                class="btn btn-dimmed ml-0 md:ml-4 mt-2 md:mt-0 !w-[90%] sm:!w-min h-[3.2rem]"
+                class="btn btn-dimmed ml-0 md:ml-4 mt-2 md:mt-0 !w-[90%] sm:!w-min h-[3.2rem] !font-normal"
               >
                 Nous Contacter
                 <span class="material-symbols-outlined text-3xl ml-2">
-                  perm_phone_msg
+                  trending_flat
                 </span>
               </a>
             </div>
@@ -122,7 +122,7 @@
             width={500}
           /> -->
 
-          <img src="/favicon.png" class="w-56" alt="fav" />
+          <!-- <img src="/images/logo-green-black.png" class="w-56" alt="fav" /> -->
         </div>
       </div>
     </Container>

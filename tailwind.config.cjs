@@ -1,3 +1,9 @@
+// #f8fafc - White
+// #3d454d - Black
+// #03b19c - Green
+// #ff7f00 - Orange
+// "brand-green": "#2E7D32",
+
 module.exports = {
   content: ['./src/**/*.svelte'],
   theme: {

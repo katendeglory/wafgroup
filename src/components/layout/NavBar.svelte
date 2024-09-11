@@ -41,6 +41,7 @@
     const scrollFunction = () => {
       // let innerHeader = document.getElementById("inner-header");
       let header = document.getElementById("header");
+      let navLogo = document.getElementById("nav-logo");
 
       if (
         document.body.scrollTop > 40 ||
@@ -50,11 +51,13 @@
         header.classList.add("shadow-sm");
         header.classList.add("bg-brand-white");
         header.classList.replace("text-gray-300", "text-gray-800");
+        navLogo.src = "/images/logo-green-black.png";
       } else {
         // innerHeader.classList.replace("h-12", "h-16");
         header.classList.remove("shadow-sm");
         header.classList.remove("bg-brand-white");
         header.classList.replace("text-gray-800", "text-gray-300");
+        navLogo.src = "/images/logo-green-white.png";
       }
     };
 
@@ -100,9 +103,10 @@
     >
       <a class="nav-link flex items-center" href="/">
         <img
-          src="/images/logo.png"
-          class="h-[1.75rem] sm:h-8 object-cover mr-2"
+          src="/images/logo-green-white.png"
+          class="h-[2rem] sm:h-10 object-cover mr-2"
           alt="home"
+          id="nav-logo"
         />
       </a>
 
@@ -114,7 +118,7 @@
         {/if}
         <a class="nav-link mr-4" href="/#about">A Propos</a>
         <a class="nav-link mr-4" href="/#services">Services</a>
-        <a class="nav-link mr-4" href="/#galerie">Galerie</a>
+        <a class="nav-link mr-4" href="/#engagements">Nos Engagements</a>
         <a class="nav-link mr-4" href="/#contact">Contact</a>
       </div>
 
@@ -140,7 +144,7 @@
             >
               Nous Contacter
               <span class="material-symbols-outlined text-3xl ml-2">
-                perm_phone_msg
+                trending_flat
               </span>
             </a>
           {/if}

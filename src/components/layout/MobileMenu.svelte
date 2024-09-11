@@ -39,7 +39,7 @@
   {#if menuVisible}
     <div
       transition:slide={{ duration: 250 }}
-      class={`translate-y-[10px] absolute mt-8 top-0 right-0 w-56 flex flex-col px-4 pt-4 pb-2 rounded-md shadow-md bg-brand-white text-gray-400`}
+      class={`translate-y-[10px] absolute mt-8 top-0 right-0 w-56 flex flex-col px-4 pt-4 pb-2 rounded-md shadow-md bg-brand-white text-gray-800`}
     >
       <a
         href="https://wa.me/+243993040340"
@@ -52,7 +52,9 @@
       <a class="mb-4" on:click={hideMenu} href="/#home">Acceuil</a>
       <a class="mb-4" on:click={hideMenu} href="/#about">A Propos</a>
       <a class="mb-4" on:click={hideMenu} href="/#services">Services</a>
-      <a class="mb-4" on:click={hideMenu} href="/#galerie">Galerie</a>
+      <a class="mb-4" on:click={hideMenu} href="/#engagements"
+        >Nos Engagements</a
+      >
       <a class="mb-4" on:click={hideMenu} href="/#contact">Contact</a>
     </div>
   {/if}

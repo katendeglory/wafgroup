@@ -47,9 +47,9 @@
           </a> -->
         </div>
         <div
-          class="flex items-center justify-center px-2 md:px-4 mx-auto max-w-[25rem] min-h-[60vh] md:min-h-min"
+          class="flex items-center justify-center pt-10 md:pt-0 px-2 md:px-4 mx-auto max-w-[25rem] lg:max-w-[30rem] min-h-[35vh] md:min-h-min"
         >
-          <img src="/images/logo.png" alt="logo" />
+          <img src="/images/logo-black.png" alt="logo" />
         </div>
       </div>
     </Container>

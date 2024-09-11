@@ -3,7 +3,7 @@
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/waf-group-01.webm";
+    vid.src = "/videos/waf-group-01.mp4";
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;
@@ -26,7 +26,7 @@
     <source src="" type="video/webm" />
   </video>
   <div
-    class="-mt-28 text-gray-600 h-font font-semibold tracking-widest animate-pulse text-sm text-center uppercase"
+    class="-mt-20 text-gray-600 h-font font-semibold tracking-widest animate-pulse text-sm text-center uppercase"
   >
     veuillez patienter...
   </div>

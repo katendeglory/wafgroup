@@ -39,7 +39,7 @@
   {#if menuVisible}
     <div
       transition:slide={{ duration: 250 }}
-      class={`translate-y-[10px] absolute mt-8 top-0 right-0 w-56 flex flex-col px-4 pt-4 pb-2 rounded-md shadow-md bg-brand-white text-gray-800`}
+      class={`translate-y-[10px] absolute mt-11 top-0 right-0 w-56 flex flex-col px-4 pt-4 pb-2 rounded-md shadow-md bg-brand-white text-gray-800`}
     >
       <a
         href="https://wa.me/+243993040340"

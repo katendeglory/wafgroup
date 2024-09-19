@@ -63,10 +63,10 @@
             </div>
 
             <h1
-              class="mb-5 h-font font-bold text-[4rem] leading-[4rem] sm:text-6xl md:text-6xl lg:text-8xl"
+              class="mt-6 mb-6 sm:mt-0 sm:mb-2 h-font font-bold text-[4rem] leading-[4rem] sm:text-6xl md:text-6xl lg:text-8xl"
             >
               <span
-                class="text-brand-green flex items-center text-[5.5rem] md:text-[4.5rem] lg:text-[7rem]"
+                class="text-brand-green flex items-center text-[8rem] md:text-[6rem] lg:text-[9rem]"
               >
                 WAF
               </span>
@@ -79,7 +79,7 @@
               Bienvenue sur le site officiel de <span
                 class="h-font font-semibold"
               >
-                WAF™.
+                WAF
               </span> (World Accounting & Finance). Bénéficiez d'une expertise financière sur mesure pour optimiser
               toutes vos activités.
             </p>

@@ -690,8 +690,8 @@ select {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.-mt-28 {
-  margin-top: -7rem;
+.-mt-20 {
+  margin-top: -5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -735,6 +735,9 @@ select {
 .mt-10 {
   margin-top: 2.5rem;
 }
+.mt-11 {
+  margin-top: 2.75rem;
+}
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -756,11 +759,8 @@ select {
 .mt-\[0\.15rem\] {
   margin-top: 0.15rem;
 }
-.-mt-20 {
-  margin-top: -5rem;
-}
-.mt-11 {
-  margin-top: 2.75rem;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 .block {
   display: block;
@@ -773,9 +773,6 @@ select {
 }
 .hidden {
   display: none;
-}
-.h-10 {
-  height: 2.5rem;
 }
 .h-12 {
   height: 3rem;
@@ -807,6 +804,9 @@ select {
 .h-\[2\.75rem\] {
   height: 2.75rem;
 }
+.h-\[2rem\] {
+  height: 2rem;
+}
 .h-\[3\.2rem\] {
   height: 3.2rem;
 }
@@ -816,26 +816,11 @@ select {
 .h-screen {
   height: 100vh;
 }
-.h-\[2rem\] {
-  height: 2rem;
-}
-.min-h-\[60vh\] {
-  min-height: 60vh;
+.min-h-\[35vh\] {
+  min-height: 35vh;
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.min-h-\[50vh\] {
-  min-height: 50vh;
-}
-.min-h-\[20vh\] {
-  min-height: 20vh;
-}
-.min-h-\[30vh\] {
-  min-height: 30vh;
-}
-.min-h-\[35vh\] {
-  min-height: 35vh;
 }
 .\!w-\[100\%\] {
   width: 100% !important;
@@ -1131,9 +1116,6 @@ select {
 .pt-\[4px\] {
   padding-top: 4px;
 }
-.pt-8 {
-  padding-top: 2rem;
-}
 .text-center {
   text-align: center;
 }
@@ -1172,8 +1154,8 @@ select {
 .text-\[4rem\] {
   font-size: 4rem;
 }
-.text-\[5\.5rem\] {
-  font-size: 5.5rem;
+.text-\[7rem\] {
+  font-size: 7rem;
 }
 .text-base {
   font-size: 1rem;
@@ -1195,6 +1177,12 @@ select {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[8rem\] {
+  font-size: 8rem;
+}
+.\!font-normal {
+  font-weight: 400 !important;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1212,15 +1200,6 @@ select {
 }
 .font-thin {
   font-weight: 100;
-}
-.\!font-semibold {
-  font-weight: 600 !important;
-}
-.\!font-light {
-  font-weight: 300 !important;
-}
-.\!font-normal {
-  font-weight: 400 !important;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1573,6 +1552,14 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 
 @media (min-width: 640px) {
 
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .sm\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1583,10 +1570,6 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:h-8 {
-    height: 2rem;
   }
 
   .sm\:h-10 {
@@ -1720,8 +1703,8 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
     line-height: 1;
   }
 
-  .md\:text-\[4\.5rem\] {
-    font-size: 4.5rem;
+  .md\:text-\[6rem\] {
+    font-size: 6rem;
   }
 
   .md\:text-base {
@@ -1793,7 +1776,7 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
     line-height: 1;
   }
 
-  .lg\:text-\[7rem\] {
-    font-size: 7rem;
+  .lg\:text-\[9rem\] {
+    font-size: 9rem;
   }
 }

@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-  <title>WAF Group — Acceuil</title>
+  <title>WAF — Acceuil</title>
 </svelte:head>
 
 <Hero />

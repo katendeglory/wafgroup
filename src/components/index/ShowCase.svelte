@@ -118,7 +118,7 @@
               </div>
               <div class="mt-3 text-sm text-gray-300">
                 Les retours des clients sont essentiels pour améliorer les
-                services, et WAF Group accueille volontiers et encourage vos
+                services, et WAF accueille volontiers et encourage vos
                 suggestions et observations.
               </div>
             </div>

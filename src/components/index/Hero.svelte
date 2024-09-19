@@ -70,17 +70,17 @@
               >
                 WAF
               </span>
-              <div class="lg:!-mt-4">
+              <!-- <div class="lg:!-mt-4">
                 <span> GROUP</span>
-              </div>
+              </div> -->
             </h1>
 
             <p class="mb-5">
               Bienvenue sur le site officiel de <span
                 class="h-font font-semibold"
               >
-                WAF Group™.
-              </span> Bénéficiez d'une expertise financière sur mesure pour optimiser
+                WAF™.
+              </span> (World Accounting & Finance). Bénéficiez d'une expertise financière sur mesure pour optimiser
               toutes vos activités.
             </p>
 

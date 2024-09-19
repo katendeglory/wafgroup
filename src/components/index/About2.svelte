@@ -16,7 +16,7 @@
 
       <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="text-gray-300">
-          WAF Group™ met à votre disposition une équipe d'experts qui couvre
+          WAF™ met à votre disposition une équipe d'experts qui couvre
           l'ensemble de vos besoins digitaux de la conception à la réalisation.
           <div class="pt-4 flex items-center">
             Voici notre procedé en quelques étapes :

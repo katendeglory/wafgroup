@@ -43,7 +43,7 @@
     <h1 class="main__heading">
       Nos Services
       <div class="text-sm mt-4 text-center font-light">
-        WAF Group mets a votre disposition une variété de services
+        WAF mets a votre disposition une variété de services
       </div>
     </h1>
     <div class="main__cards waf-groupCards">

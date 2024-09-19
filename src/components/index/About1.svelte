@@ -19,7 +19,7 @@
 
       <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="">
-          Chez WAF Group, notre mission est de fournir des solutions financières
+          Chez WAF, notre mission est de fournir des solutions financières
           complètes et personnalisées qui répondent aux besoins uniques de
           chaque client. Nous nous engageons à offrir des services de la plus
           haute qualité, basés sur une expertise approfondie et une

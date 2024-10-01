@@ -65,7 +65,7 @@
               type="text"
               class={`w-full`}
               required
-              placeholder="Votre nom"
+              placeholder="Votre nom ou votre entreprise"
             />
             <input
               bind:value={message.tel}
@@ -79,7 +79,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
               bind:value={message.email}
-              type="email"
+              type="text"
               class={`w-full`}
               required
               placeholder="Votre email"

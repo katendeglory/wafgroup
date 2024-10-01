@@ -99,9 +99,9 @@
                 Excellence
               </div>
               <div class="mt-3 text-sm text-gray-300">
-                Nous nous engageons l'excellence en se perfectionnant sans
-                cesse, offrant ainsi des solutions toujours innovantes et à la
-                pointe de l'efficacité.
+                Nous nous engageons à l'excellence en nous perfectionnant
+                continuellement, afin de proposer des solutions innovantes et
+                hautement efficaces.
               </div>
             </div>
             <!--  -->

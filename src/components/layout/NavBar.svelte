@@ -116,7 +116,7 @@
         {:else}
           <a class="nav-link mr-4" href="/#home">Acceuil</a>
         {/if}
-        <a class="nav-link mr-4" href="/#about">A Propos</a>
+        <a class="nav-link mr-4" href="/#about">A propos de nous</a>
         <a class="nav-link mr-4" href="/#services">Services</a>
         <a class="nav-link mr-4" href="/#engagements">Nos Engagements</a>
         <a class="nav-link mr-4" href="/#contact">Contact</a>

@@ -50,7 +50,7 @@
         <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
       </a>
       <a class="mb-4" on:click={hideMenu} href="/#home">Acceuil</a>
-      <a class="mb-4" on:click={hideMenu} href="/#about">A Propos</a>
+      <a class="mb-4" on:click={hideMenu} href="/#about">A propos de nous</a>
       <a class="mb-4" on:click={hideMenu} href="/#services">Services</a>
       <a class="mb-4" on:click={hideMenu} href="/#engagements"
         >Nos Engagements</a

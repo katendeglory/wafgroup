@@ -31,15 +31,16 @@
     <!--  -->
     <Container>
       <div class="h-font text-2xl md:text-3xl lg:text-4xl">
-        <span class="">Pourquoi nous </span>
-        <span class="text-brand-green/80">choisir?</span>
+        <span class="">Pourquoi choisir </span>
+        <span class="text-brand-green/80">WAF Group ?</span>
       </div>
 
       <div class="mt-4">
-        Vous en avez assez de gérer seul vos finances ? Travaillez avec WAF
-        Group et découvrez la différence d'avoir un allié financier dédié à vos
-        côtés. Simplifiez votre vie grâce à nos solutions sur mesure et
-        atteignez vos objectifs plus rapidement.
+        Vous en avez assez de naviguer seul dans vos finances ? Vous n'êtes pas
+        satisfait de vos gestionnaires actuels ?Avec WAF Group, faites
+        l'expérience d'un véritable partenaire financier à vos côtés. Simplifiez
+        votre quotidien grâce à nos solutions sur mesure et atteignez vos
+        objectifs plus rapidement. Découvrez la différence dès aujourd'hui !
       </div>
     </Container>
 

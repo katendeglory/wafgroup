@@ -39,19 +39,19 @@
           <div
             class="w-[3rem] flex flex-col justify-center space-y-2 md:space-y-3"
           >
-            <a href="https://instagram.com/WAF_decor" about="_blank">
+            <a href="https://instagram.com/waf.group" about="_blank">
               <img src="/images/icons/icon-fb.png" class="w-8" alt="" />
             </a>
-            <a href="https://instagram.com/WAF_decor" about="_blank">
+            <a href="https://instagram.com/waf.group" about="_blank">
               <img src="/images/icons/icon-ig.png" class="w-8" alt="" />
             </a>
-            <a href="https://wa.me/+243993040340" about="_blank">
+            <a href="https://wa.me/+1438354-2509" about="_blank">
               <img src="/images/icons/icon-w.png" class="w-8" alt="" />
             </a>
-            <a href="https://x.com" about="_blank">
+            <a href="https://x.com/waf.group" about="_blank">
               <img src="/images/icons/icon-x.png" class="w-8" alt="" />
             </a>
-            <a href="https://linkedin.com" about="_blank">
+            <a href="https://linkedin.com/waf.group" about="_blank">
               <img src="/images/icons/icon-in.png" class="w-8" alt="" />
             </a>
           </div>
@@ -63,16 +63,9 @@
             </div>
 
             <h1
-              class="mt-6 mb-6 sm:mt-0 sm:mb-2 h-font font-bold text-[4rem] leading-[4rem] sm:text-6xl md:text-6xl lg:text-8xl"
+              class="mt-6 mb-6 sm:mt-0 sm:mb-2 text-center sm:text-left text-brand-green text-[8rem] sm:text-6xl md:text-[6rem] lg:text-[9rem] leading-[4rem] h-font font-bold"
             >
-              <span
-                class="text-brand-green flex items-center text-[8rem] md:text-[6rem] lg:text-[9rem]"
-              >
-                WAF
-              </span>
-              <!-- <div class="lg:!-mt-4">
-                <span> GROUP</span>
-              </div> -->
+              WAF
             </h1>
 
             <p class="mb-5">
@@ -80,15 +73,15 @@
                 class="h-font font-semibold"
               >
                 WAF
-              </span> (World Accounting & Finance). Bénéficiez d'une expertise financière sur mesure pour optimiser
-              toutes vos activités.
+              </span> (World Accounting & Finance). Bénéficiez d'une expertise financière
+              sur mesure pour optimiser toutes vos activités.
             </p>
 
             <div
               class="flex flex-col md:flex-row justify-center md:justify-start md:items-center"
             >
               <a href="/#about" class="btn btn-primary !w-[90%] sm:!w-min">
-                A Propos
+                A propos de nous
                 <span class="material-symbols-outlined text-3xl ml-2">
                   help
                 </span>

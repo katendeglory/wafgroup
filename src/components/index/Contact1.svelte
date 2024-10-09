@@ -11,9 +11,9 @@
         </div>
 
         <div
-          class="text-brand-primary text-brand-green text-3xl md:text-4xl text-center mb-4 uppercase tracking-widest"
+          class="text-brand-primary text-brand-green text-2xl md:text-3xl text-center mb-4 uppercase tracking-widest"
         >
-          Canada - Quebec
+          Canada / Cameroun - Douala
         </div>
 
         <div
@@ -27,7 +27,15 @@
         </div>
 
         <div class="flex justify-center">
-          <div class="text-gray-200 text-sm md:text-base text-center">
+          <div
+            class="text-gray-200 text-sm md:text-base text-center flex flex-col items-center"
+          >
+            <div class="mt-4 mb-4 text-gray-900 text-sm tracking-wide">
+              <div class="">Lundi à mercredi: 10h00 à 18h00</div>
+              <div class="">Jeudi et vendredi 11h00 à 19h00</div>
+              <div class="">Samedi : 8h00 a 13h00</div>
+            </div>
+
             <a href="tel:+14383542509" class="contact-box !text-gray-800">
               <span
                 class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
@@ -36,22 +44,26 @@
               </span>
               +1 (438) 354 2509
             </a>
-            <a href="mail:info@wafgroup.net" class="contact-box !text-gray-800">
+            <a
+              href="mail:info@wafbusiness.ca"
+              class="contact-box !text-brand-green"
+            >
               <span
                 class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
               >
                 email
               </span>
-              info@wafgroup.net
+              info@wafbusiness.ca
             </a>
-            <a
+
+            <!-- <a
               href="https://api.whatsapp.com/send?phone=14383542509"
               about="_blank"
               class="mt-4 btn btn-primary !px-12 !py-1 h-[2.75rem]"
             >
               <ion-icon name="logo-whatsapp" class="text-xl mr-2" />
               Whatsapp
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

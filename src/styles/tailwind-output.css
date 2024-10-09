@@ -995,10 +995,6 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1152,9 +1148,6 @@ select {
 .text-\[0\.9rem\] {
   font-size: 0.9rem;
 }
-.text-\[4rem\] {
-  font-size: 4rem;
-}
 .text-\[8rem\] {
   font-size: 8rem;
 }
@@ -1264,6 +1257,10 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.\!text-brand-green {
+  --tw-text-opacity: 1 !important;
+  color: rgb(46 125 50 / var(--tw-text-opacity)) !important;
 }
 .opacity-75 {
   opacity: 0.75;
@@ -1722,10 +1719,6 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 
 @media (min-width: 1024px) {
 
-  .lg\:\!-mt-4 {
-    margin-top: -1rem !important;
-  }
-
   .lg\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -1770,11 +1763,6 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 
   .lg\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
     line-height: 1;
   }
 

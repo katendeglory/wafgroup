@@ -3,7 +3,7 @@
     "Quickbooks",
     "Dext",
     "Sage 50",
-    "Sage cloud",
+    "Sage 50 Cloud",
     "Odoo",
     "Acomba",
     "Microsoft dynamic 360",

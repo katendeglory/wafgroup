@@ -13,7 +13,7 @@
         <div
           class="text-brand-primary text-brand-green text-2xl md:text-3xl text-center mb-4 uppercase tracking-widest"
         >
-          Canada / Cameroun - Douala
+          Canada /<br class="sm:hidden" /> Cameroun - Douala
         </div>
 
         <div
@@ -31,7 +31,7 @@
             class="text-gray-200 text-sm md:text-base text-center flex flex-col items-center"
           >
             <div
-              class="mt-2 mb-2 text-gray-900 text-sm tracking-wide rounded-md shadow-sm bg-white px-6 py-3"
+              class="mt-2 mb-4 text-gray-900 text-sm tracking-wide rounded-md bg-white px-6 py-4 shadow-xl"
             >
               <div
                 class="flex items-center justify-center text-brand-green uppercase"
@@ -41,9 +41,18 @@
                 </span>
                 Horaire
               </div>
-              <div class="">Lundi à mercredi: 10h00 à 18h00</div>
-              <div class="">Jeudi et vendredi 11h00 à 19h00</div>
-              <div class="">Samedi : 8h00 a 13h00</div>
+              <div class="mt-1">
+                <span class="text-brand-green">Lundi à mercredi :</span>
+                10h00 à 18h00
+              </div>
+              <div class="mt-1">
+                <span class="text-brand-green">Jeudi et vendredi :</span>
+                11h00 à 19h00
+              </div>
+              <div class="mt-1">
+                <span class="text-brand-green">Samedi :</span>
+                8h00 a 13h00
+              </div>
             </div>
 
             <a href="tel:+14383542509" class="contact-box !text-gray-800">

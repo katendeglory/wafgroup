@@ -87,7 +87,7 @@
                 </span>
               </a>
               <a
-                href="https://wa.me/+243993040340"
+                href="/#contact"
                 about="_blank"
                 class="btn btn-dimmed ml-0 md:ml-4 mt-2 md:mt-0 !w-[90%] sm:!w-min h-[3.2rem] !font-normal"
               >

@@ -30,16 +30,24 @@
           <div
             class="text-gray-200 text-sm md:text-base text-center flex flex-col items-center"
           >
-            <div class="mt-4 mb-4 text-gray-900 text-sm tracking-wide">
+            <div
+              class="mt-2 mb-2 text-gray-900 text-sm tracking-wide rounded-md shadow-sm bg-white px-6 py-3"
+            >
+              <div
+                class="flex items-center justify-center text-brand-green uppercase"
+              >
+                <span class="material-symbols-outlined mr-2 text-2xl">
+                  schedule
+                </span>
+                Horaire
+              </div>
               <div class="">Lundi à mercredi: 10h00 à 18h00</div>
               <div class="">Jeudi et vendredi 11h00 à 19h00</div>
               <div class="">Samedi : 8h00 a 13h00</div>
             </div>
 
             <a href="tel:+14383542509" class="contact-box !text-gray-800">
-              <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
-              >
+              <span class="material-symbols-outlined mr-2 text-3xl">
                 phone_callback
               </span>
               +1 (438) 354 2509
@@ -48,9 +56,7 @@
               href="mail:info@wafbusiness.ca"
               class="contact-box !text-brand-green"
             >
-              <span
-                class="material-symbols-outlined mr-2 text-3xl text-brand-yellow"
-              >
+              <span class="material-symbols-outlined mr-2 text-3xl">
                 email
               </span>
               info@wafbusiness.ca

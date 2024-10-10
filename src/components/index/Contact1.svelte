@@ -11,9 +11,9 @@
         </div>
 
         <div
-          class="text-brand-primary text-brand-green text-2xl md:text-3xl text-center mb-4 uppercase tracking-widest"
+          class="text-brand-primary text-brand-green text-3xl md:text-4xl text-center mb-4 uppercase tracking-widest"
         >
-          Canada /<br class="sm:hidden" /> Cameroun - Douala
+          Canada-Quebec
         </div>
 
         <div
@@ -47,7 +47,7 @@
               </div>
               <div class="mt-1">
                 <span class="text-brand-green">Jeudi et vendredi :</span>
-                11h00 à 19h00
+                08h30 à 16h00
               </div>
               <div class="mt-1">
                 <span class="text-brand-green">Samedi :</span>
